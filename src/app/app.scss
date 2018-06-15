@@ -14,3 +14,17 @@
 // To declare rules for a specific mode, create a child rule
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
+
+
+.page-header {
+  padding: 1.5em 0;
+  color: #fff;
+  font-size: 1.8em;
+  text-align: center;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7a1861+1,503766+100 */
+  background: #7a1861; /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #7a1861 1%, #503766 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #7a1861 1%,#503766 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #7a1861 1%,#503766 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7a1861', endColorstr='#503766',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}

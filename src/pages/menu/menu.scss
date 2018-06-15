@@ -1,0 +1,41 @@
+page-menu {
+
+}
+
+.menu-list {
+  ion-item-divider {
+    text-align: center;
+  }
+  ion-item .label {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    ion-icon {
+      font-size: 1.5em;
+    }
+    .drink-title {
+      flex-grow: 3;
+      color: #333;
+    }
+    .drink-price {
+      flex-grow: 2;
+      text-align: center;
+      font-weight: bold;
+    }
+    .drink-quantity {
+      width: 1.5em;
+      text-align: center;
+      color: #999;
+      font-weight: bold;
+    }
+    .remove-drink {
+      width: 1.5em;
+      text-align: right;
+    }
+    .add-drink {
+      width: 1.5em;
+      text-align: right;
+      color: color($colors, teal);
+    }
+  }
+}

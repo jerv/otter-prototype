@@ -36,10 +36,18 @@ $app-direction: ltr;
 $colors: (
   primary:    #488aff,
   secondary:  #32db64,
+  darkblue: #344D6C,
+  teal: #47c2b1,
   danger:     #f53d3d,
   light:      #f4f4f4,
   dark:       #222
 );
+
+$background-color: #E3E4E6;
+$card-ios-background-colo: #fff;
+$card-md-background-color: #fff;
+$list-background-color: #fff;
+
 
 
 // App iOS Variables
